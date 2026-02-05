@@ -1,33 +1,29 @@
-#JNTUH SGPA Calculator
+# JNTUH SGPA Calculator
 
-A simple tool to calculate Semester Grade Point Average (SGPA) as per JNTUH grading rules.
-It takes subject details like credits and grades, then computes the SGPA accurately.
+A simple tool to calculate Semester Grade Point Average (SGPA) based on JNTUH grading rules.
 
-This is useful for students who want a quick way to verify their semester performance without manual calculation.
+This program takes subject credits and grades as input and calculates the SGPA using the official grade point mapping.
 
-Features
+## Features
 
-Supports official JNTUH grade points
+- Follows JNTUH grade point system
+- Supports multiple subjects
+- Validates grade and credit inputs
+- Displays subject wise grade points
+- Allows repeated SGPA calculations
 
-Handles multiple subjects in one run
+## Grade Point Mapping
 
-Input validation for credits and grades
+| Grade | Points |
+|------|--------|
+| O    | 10     |
+| A+   | 9      |
+| A    | 8      |
+| B+   | 7      |
+| B    | 6      |
+| C    | 5      |
+| F    | 0      |
 
-Displays a clear breakdown of subject wise points
-
-Option to calculate SGPA multiple times
-
-Grade Point Mapping
-Grade	Points
-O	    10
-A+  	9
-A	    8
-B+  	7
-B   	6
-C   	5
-F	    0
-How SGPA Is Calculated
-
-SGPA is calculated using the formula:
+## SGPA Formula
 
 SGPA = (Sum of (Grade Points × Credits)) / (Total Credits)
