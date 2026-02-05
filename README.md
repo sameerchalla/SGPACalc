@@ -1,4 +1,5 @@
 #JNTUH SGPA Calculator
+
 A simple tool to calculate Semester Grade Point Average (SGPA) as per JNTUH grading rules.
 It takes subject details like credits and grades, then computes the SGPA accurately.
 
